@@ -17,10 +17,10 @@ int main(void) {
     int empleados_ingresados = 0;
     empleado persona[CANT_EMPLEADOS];
     int c = 0;
-    for (c = 0; c<CANT_EMPLEADOS; c++)
+    for (c = 0; c<CANT_EMPLEADOS; c++){
         persona[c].edad = 0;
         persona[c].salario = 0; 
-        
+    }
     int opcionElegida;
     do {
         MOSTRAR_OPCIONES();
